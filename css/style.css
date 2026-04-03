@@ -1,0 +1,15 @@
+#movies {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+.movie-card {
+    cursor: pointer;
+    width: 240px;
+}
+
+.movie-card:hover {
+    transform: scale(1.02);
+}
